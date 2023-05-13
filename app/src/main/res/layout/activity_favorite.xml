@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Favorite">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:orientation="vertical"
+        android:background="@color/biru_favorite">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:padding="25dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="3dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/met_filter"
+                    android:layout_width="300dp"
+                    android:background="@color/white"
+                    android:text="Filter Data"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00BCD4"
+                    android:text="Cari"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/detailnovelku"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="4"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="155dp"
+                android:padding="5dp"
+                android:layout_marginLeft="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/thealpha"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="2"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/text_header"
+                android:layout_width="match_parent"
+                android:text="THE ALPHA GIRL'S GUIDE"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textColor="@color/text_sub"
+                android:layout_width="match_parent"
+                android:text="2023-05-13 | Natasya Abelianti"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:text="Alpha Female adalah para perempuan yang menginspirasi,memimpin,"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:text="menggerakkan orang sekitarnya, dan membawa perubahan."
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/genre_favorite"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Genre Romance"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/genre_favorite"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Chapter 1 (satu)"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:layout_marginHorizontal="20dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="4"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/filosofiku"
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:padding="5dp"
+                android:layout_marginLeft="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/filosofiteras" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="2"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/text_header"
+                android:layout_width="match_parent"
+                android:text="FILOSOFI TERAS"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textColor="@color/text_sub"
+                android:layout_width="match_parent"
+                android:text="2023-05-13 | Natasya Abelianti"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Filosofi Teras, adalah filsafat Yunani-Romawi kuno yang bisa membantu kita mengatasi emosi"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                tools:ignore="TextSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="negatif dan menghasilkan mental yang tangguh dalam menghadapi naik-turun nya kehidupan."
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                tools:ignore="TextSizeCheck" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/genre_favorite"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Genre Romance"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/genre_favorite"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Chapter 1 (satu)"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

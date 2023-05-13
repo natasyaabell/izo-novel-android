@@ -12,4 +12,9 @@
     <color name="text_header_two">#538A5A</color>
     <color name="text_sub">#8A8A8A</color>
     <color name="box_one">#EB9C99</color>
+    <color name="biru_favorite">#4005BA</color>
+    <color name="abu">#676565</color>
+    <color name="garis">#FF000000</color>
+    <color name="hijau_detail">#66D191</color>
+    <color name="biru_muda">#7BB5E6</color>
 </resources>

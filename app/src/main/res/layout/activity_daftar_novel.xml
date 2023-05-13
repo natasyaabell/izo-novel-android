@@ -18,30 +18,81 @@
                 android:layout_height="150dp"
                 android:layout_weight="3"
                 android:background="@color/box_one"
-                android:src="@drawable/bg"/>
-            <LinearLayout
+                android:src="@drawable/thealpha"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
                 android:layout_width="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="1"
-                android:layout_marginLeft="15"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="16dp"
-                    android:textStyle="bold"
-                    android:text="Menanti Hari Berganti"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="11dp"
-                    android:text="2020-10-01  | Titi sandrina"/>
-                <TextView
-                    android:layout_marginTop="10dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="deskripsi sinopsis disini  deskripsi deskripsi sinopsis disini sinopsis disini "/>
-            </LinearLayout>
+                android:layout_height="wrap_content"
+                android:text="THE ALPHA GIRL'S GUIDE"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2023-05-13  | Natasya Abelianti"
+                android:textSize="11dp"
+                tools:ignore="TextSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:text="Alpha Female adalah para perempuan yang menginspirasi,memimpin,menggerakkan orang sekitarnya, dan membawa perubahan. " />
+        </LinearLayout>
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:padding="10dp"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="3"
+            android:background="@color/box_one"
+            android:src="@drawable/laut_bercerita"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Laut Bercerita"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2023-05-13  | Natasya Abelianti"
+                android:textSize="11dp"
+                tools:ignore="TextSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:text="mengambil sudut pandang seorang mahasiswa aktivis bernama Laut, menceritakan bagaimana Laut dan kawan-kawannya menyusun rencana, berpindah-pindah dalam pelarian, hingga tertangkap oleh pasukan rahasia" />
+        </LinearLayout>
+    </LinearLayout>
+
 
 </androidx.appcompat.widget.LinearLayoutCompat>
